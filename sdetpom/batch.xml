@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNGScripts.TNG7"/>
+      <class name="testNGScripts.TNG6"/>
+      <class name="testNGScripts.TNG9"/>
+      <class name="testNGScripts.TNG8"/>
+      <class name="testNGScripts.TNG3"/>
+      <class name="testNGScripts.TNG2"/>
+      <class name="testNGScripts.TNG5"/>
+      <class name="testNGScripts.TNG4"/>
+      <class name="testNGScripts.TNG1"/>
+      <class name="testNGScripts.TNG11"/>
+      <class name="testNGScripts.TNG10"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

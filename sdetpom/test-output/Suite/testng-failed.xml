@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testNGScripts.TNG4">
+        <methods>
+          <include name="rukmini"/>
+          <include name="satyabhama"/>
+          <include name="krishna"/>
+          <include name="radha"/>
+        </methods>
+      </class> <!-- testNGScripts.TNG4 -->
+      <class name="testNGScripts.TNG11">
+        <methods>
+          <include name="facebookmethod"/>
+        </methods>
+      </class> <!-- testNGScripts.TNG11 -->
+      <class name="testNGScripts.TNG8">
+        <methods>
+          <include name="method"/>
+        </methods>
+      </class> <!-- testNGScripts.TNG8 -->
+      <class name="testNGScripts.TNG9">
+        <methods>
+          <include name="method4"/>
+          <include name="method3"/>
+        </methods>
+      </class> <!-- testNGScripts.TNG9 -->
+      <class name="testNGScripts.TNG2">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="ex2testMethod1"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testNGScripts.TNG2 -->
+      <class name="testNGScripts.TNG5">
+        <methods>
+          <include name="method1"/>
+          <include name="method2"/>
+        </methods>
+      </class> <!-- testNGScripts.TNG5 -->
+      <class name="testNGScripts.TNG1">
+        <methods>
+          <include name="ex1testMethod1"/>
+        </methods>
+      </class> <!-- testNGScripts.TNG1 -->
+      <class name="testNGScripts.TNG7">
+        <methods>
+          <include name="sevenhills"/>
+        </methods>
+      </class> <!-- testNGScripts.TNG7 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
